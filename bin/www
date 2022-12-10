@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var app = require('../app');
-#!juste a way for me to test
+const kolomental = 2
 app.set('port', process.env.PORT || 1337);
 
 var server = app.listen(app.get('port'), function() {
