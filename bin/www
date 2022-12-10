@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var app = require('../app');
-const labadaba = 2
+const labadaba = 2;
 app.set('port', process.env.PORT || 1337);
 
 var server = app.listen(app.get('port'), function() {
